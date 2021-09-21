@@ -4,7 +4,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-const app_1 = __importDefault(require("./app"));
+const app_1 = __importDefault(require("./Server/Config/app"));
 const debug_1 = __importDefault(require("debug"));
 (0, debug_1.default)('personal-portfolio:server');
 const http_1 = __importDefault(require("http"));
@@ -51,4 +51,4 @@ function onListening() {
         : 'port ' + addr.port;
     (0, debug_1.default)('Listening on ' + bind);
 }
-//# sourceMappingURL=index.js.map
+//# sourceMappingURL=server.js.map

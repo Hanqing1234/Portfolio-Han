@@ -3,7 +3,7 @@
  * Module dependencies.
  */
 import createError from 'http-errors';
-import app from './app';
+import app from './Server/Config/app';
 import debug from 'debug';
 debug('personal-portfolio:server');
 import http from 'http';
