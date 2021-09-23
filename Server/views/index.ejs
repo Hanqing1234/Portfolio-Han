@@ -11,10 +11,9 @@
 
 
 <!-- Main Content -->
-  <div class="container">
-    <h1>Welcome to the <%= title %> page</h1>
-    <p>Welcome to <%= title %></p>
-  </div>
+  <main>
+    <%- include('./content/' + page + '.ejs') %>
+  </main>
 
 <footer>
 <%- include('./partials/footer.ejs') %> 
