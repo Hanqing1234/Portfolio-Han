@@ -1,6 +1,7 @@
 import express from 'express';
 const router = express.Router();
 export default router;
+import fs from 'fs';
 
 /* GET home page. */
 router.get('/', function(req, res, next) 
@@ -17,7 +18,11 @@ router.get('/home', function(req, res, next)
 /* GET about page. */
 router.get('/about', function(req, res, next) 
 {
-  res.render('index', { title: 'About' });
+  let filePath = 'Public/Assets/pdf/Resume.pdf';
+  fs.readFile(filePath, function (err,data){
+    res.contentType("application/pdf");
+    res.send(data);
+  });
 });
 
 /* GET projects page. */
