@@ -8,7 +8,7 @@ const router = express_1.default.Router();
 exports.default = router;
 const fs_1 = __importDefault(require("fs"));
 router.get('/', function (req, res, next) {
-    res.render('index', { title: 'Home' });
+    res.render('index', { title: 'Home', page: 'home' });
 });
 router.get('/home', function (req, res, next) {
     res.render('index', { title: 'Home', page: 'home' });
