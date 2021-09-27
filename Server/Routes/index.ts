@@ -18,7 +18,7 @@ router.get('/home', function(req, res, next)
 /* GET about page. */
 router.get('/about', function(req, res, next) 
 {
-  let filePath = 'Public/Assets/pdf/Resume.pdf';
+  let filePath = 'Client/Assets/pdf/Resume.pdf';
   fs.readFile(filePath, function (err,data){
     res.contentType("application/pdf");
     res.send(data);

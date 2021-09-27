@@ -14,7 +14,7 @@ router.get('/home', function (req, res, next) {
     res.render('index', { title: 'Home', page: 'home' });
 });
 router.get('/about', function (req, res, next) {
-    let filePath = 'Public/Assets/pdf/Resume.pdf';
+    let filePath = 'Client/Assets/pdf/Resume.pdf';
     fs_1.default.readFile(filePath, function (err, data) {
         res.contentType("application/pdf");
         res.send(data);
