@@ -2,7 +2,6 @@
   "name": "personal-portfolio",
   "version": "0.0.0",
   "private": true,
-  
   "scripts": {
     "start": "node server.js"
   },
@@ -16,6 +15,7 @@
     "express": "^4.17.1",
     "http-errors": "^1.8.0",
     "jquery": "^3.6.0",
+    "lottie-web": "^5.7.13",
     "morgan": "^1.10.0",
     "typed.js": "^2.0.12"
   },

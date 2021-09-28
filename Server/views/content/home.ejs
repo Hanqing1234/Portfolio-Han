@@ -14,20 +14,14 @@
       <span class="text-slider">play video games, do outdoor activity </span>
   </p>
     </div> 
-    <div class="col">
-    <p>picture</p>
+    <div class="col animation">
+    <div class="icon"></div>
     </div>
   </div>
 </div>
 
-<div class="typed">
-  <span class="anim">
-
-  </span>
-</div>
-
-
 <script src="typed.js/lib/typed.min.js"></script>
+<script src="lottie-web/build/player/lottie.min.js"></script>
 <script>
   let options = {
   strings: ['play video games 🎮 ','do outdoor activities 🏕️'],
@@ -36,4 +30,15 @@
   loop:true
 };
 let typed = new Typed('.text-slider', options);
+</script>
+
+<script>
+  const icon = document.querySelector('.icon');
+  lottie.loadAnimation({
+    container: icon,
+    renderer: 'svg',
+    loop: true,
+    autoplay: true,
+    path: 'https://assets2.lottiefiles.com/packages/lf20_NjRqYM.json' 
+  });
 </script>
