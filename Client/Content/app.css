@@ -2,3 +2,29 @@
 .navbar-brand{
     width: 100px;
 }
+
+.container-fluid{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+}
+
+.container{
+    width: 1000px;
+}
+.intro {
+    padding-top: 7vh;
+    height: 90vh;
+    margin-left: 18vh;
+    
+}
+
+.content {  
+    padding: 56px 24px 48px;
+    position: relative;
+    font-size: 40px;
+    font-weight: bold;
+    background-image: url('../Assets/images/home.svg');
+   
+}
+
+    
+ 

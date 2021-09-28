@@ -2,6 +2,7 @@
   "name": "personal-portfolio",
   "version": "0.0.0",
   "private": true,
+  "type": "module",
   "scripts": {
     "start": "node server.js"
   },
@@ -15,7 +16,8 @@
     "express": "^4.17.1",
     "http-errors": "^1.8.0",
     "jquery": "^3.6.0",
-    "morgan": "^1.10.0"
+    "morgan": "^1.10.0",
+    "typed.js": "^2.0.12"
   },
   "devDependencies": {
     "@types/bootstrap": "^5.1.4",

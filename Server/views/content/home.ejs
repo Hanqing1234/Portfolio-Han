@@ -1,4 +1,39 @@
 <!-- Main Content -->
-  <div class="container">
-    <h1>Welcome to our site!</h1>  
+
+<div class="content container-fluid">
+  <div class="row">
+    <div class="intro col">
+  <p>I am Hanqing， </p>
+  <p>a front-end developer，know some 
+    <p>full-stack knowledge.</p> 
+  </p>
+  <p>I like to build website 🖥️，</p>
+  <p>sometimes</p>
+  <!--Add test slider style from typed.js -->
+    <p class="typed">
+      <span class="text-slider">play video games, do outdoor activity </span>
+  </p>
+    </div> 
+    <div class="col">
+    <p>picture</p>
+    </div>
   </div>
+</div>
+
+<div class="typed">
+  <span class="anim">
+
+  </span>
+</div>
+
+
+<script src="typed.js/lib/typed.min.js"></script>
+<script>
+  let options = {
+  strings: ['play video games 🎮 ','do outdoor activities 🏕️'],
+  typeSpeed: 20,
+  fadeOut: true,
+  loop:true
+};
+let typed = new Typed('.text-slider', options);
+</script>
