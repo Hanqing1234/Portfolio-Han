@@ -1,6 +1,10 @@
 /* your custom css goes here */
+body{
+    background-image: url('../Assets/images/home.svg');
+    background-image: url('../Assets/images/home.svg');
+}
 .navbar-brand{
-    width: 100px;
+    width: 70px;
 }
 
 .container-fluid{
@@ -22,12 +26,10 @@
     position: relative;
     font-size: 40px;
     font-weight: bold;
-    background-image: url('../Assets/images/home.svg');
-   
 }
 
 .animation{
-    margin-top: 60px;
+    padding-top: 70px;
 }
 
     
