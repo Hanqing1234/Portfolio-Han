@@ -1,4 +1,8 @@
-/* your custom css goes here */
+/*
+* Author       : Hanqing Liu
+* Date         : Sep 20, 2021
+*Description   : Assignment 1 for COMP229
+*/
 body{
     background-image: url('../Assets/images/home.svg');
     background-image: url('../Assets/images/home.svg');
@@ -18,15 +22,53 @@ body{
     padding-top: 7vh;
     height: 90vh;
     margin-left: 18vh;
-    
 }
 
+/* Using CSS for a fade-in effect on page load */
 .content {  
     padding: 56px 24px 48px;
     position: relative;
     font-size: 40px;
     font-weight: bold;
+    margin-top: 25px;
+    animation: fadein 2s;
+    -moz-animation: fadein 2s; /* Firefox */
+    -webkit-animation: fadein 2s; /* Safari and Chrome */
+    -o-animation: fadein 2s; /* Opera */
 }
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadein { /* Opera */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
 
 .animation{
     padding-top: 70px;

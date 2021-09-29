@@ -1,3 +1,8 @@
+/*
+* Author       : Hanqing Liu
+* Date         : Sep 20, 2021
+*Description   : Assignment 1 for COMP229
+*/
 import express from 'express';
 const router = express.Router();
 export default router;
