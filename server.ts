@@ -3,9 +3,10 @@
  * Module dependencies.
  */
 /*
-* Author       : Hanqing Liu
-* Date         : Sep 20, 2021
-*Description   : Assignment 1 for COMP229
+* Author         : Hanqing Liu
+* Student Number : 301153641
+* Date           : Sep 20, 2021
+* Description    : Assignment 1 for COMP229
 */
 import createError from 'http-errors';
 import app from './Server/Config/app';
