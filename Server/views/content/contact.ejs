@@ -1,13 +1,17 @@
-<!-- Main Content -->
 <div class="contact">
-  <h1 class="display"><div>
+  <h1 class="display">
+    <div>
     <h1 class="FindMe">
        <p>Find Me </p>
        <a href="https://www.linkedin.com/in/hanqing-l-24b749119"><i class="fab fa-linkedin"></i></a>
        <a href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
        <a href="https://web.wechat.com/"><i class="fab fa-weixin"></i></a>
       </h1>
-  </div></h1>
+    </div>
+  </h1>
+    <div class="error">
+    <div id="errorMessage" class="alert alert-danger" hidden role="alert">Please enter a Valid First Name with a length of 2 or more characters</div>
+  </div>
   <div class="contact-2">
   <form id="contactForm">
     <div class="form-group">
@@ -27,7 +31,7 @@
       <div class="form-group">
         <label for="emailAddress">Email address</label>   
         <input type="email" class="form-control" id="emailAddress" name="emailAddress" aria-describedby="emailAddress"
-                placeholder="Enter your Contact Number" required>
+                placeholder="Enter your email address" required>
       </div>
 
       <div class="form-group">
@@ -48,4 +52,3 @@
 </div>
 
 </div>
-
