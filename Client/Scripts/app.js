@@ -7,7 +7,7 @@
             let errorMessage = document.getElementById("errorMessage");
             let firstName = document.getElementById("firstName");
             firstName.addEventListener("blur", (event) => {
-                if (firstName.value.length < 1) {
+                if (firstName.value.length < 2) {
                     errorMessage.hidden = false;
                     errorMessage.textContent = "Please enter a Valid First Name with a length of 2 or more characters";
                 }
@@ -17,7 +17,7 @@
             });
             let lastName = document.getElementById("lastName");
             lastName.addEventListener("blur", (event) => {
-                if (lastName.value.length < 1) {
+                if (lastName.value.length < 2) {
                     errorMessage.hidden = false;
                     errorMessage.textContent = "Please enter a Valid Last Name with a length of 2 or more characters";
                 }
