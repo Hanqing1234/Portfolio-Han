@@ -23,6 +23,12 @@ router.get('/home', function(req, res, next)
 /* GET about page. */
 router.get('/about', function(req, res, next) 
 {
+  res.render('index', { title: 'About', page: 'about' });
+});
+
+/* GET resume page. */
+router.get('/resume', function(req, res, next) 
+{
   let filePath = 'Client/Assets/pdf/Resume.pdf';
   fs.readFile(filePath, function (err,data){
     res.contentType("application/pdf");
