@@ -2,6 +2,8 @@ import React, { FC, Suspense } from "react";
 import Nav from "./sections/Nav";
 import './App.css';
 
+const Home = React.lazy(() => import("./sections/Home"));
+
 
 const App:FC = () => {
   return (
@@ -10,7 +12,8 @@ const App:FC = () => {
       <Nav />
 
       <main>
-      
+        <Home />
+
     
      
       </main>
