@@ -1,10 +1,22 @@
-import React from 'react';
+import React, { FC, Suspense } from "react";
+import Nav from "./sections/Nav";
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
 
+const App:FC = () => {
+  return (
+    <div id="app">
+    <Suspense fallback={null}>
+      <Nav />
+
+      <main>
+      
+    
+     
+      </main>
+
+    
+    </Suspense>
     </div>
   );
 }
