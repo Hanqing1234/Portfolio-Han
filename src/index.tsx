@@ -1,12 +1,14 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+import React from "react";
+import ReactDOM from "react-dom";
+import { ConfigProvider } from "antd";
+
+import App from "./App";
+import "antd/dist/antd.min.css";
+import "./styles.scss";
 
 ReactDOM.render(
-  <React.StrictMode>
+  <ConfigProvider>
     <App />
-  </React.StrictMode>,
-  document.getElementById('root')
+  </ConfigProvider>,
+  document.getElementById("root")
 );
-

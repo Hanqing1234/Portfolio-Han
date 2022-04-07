@@ -1,27 +1,22 @@
 import React, { FC, Suspense } from "react";
-import Nav from "./sections/Nav";
-import './App.css';
+
+import Loading from "./components/Loading";
 
 const Home = React.lazy(() => import("./sections/Home"));
 
 
-const App:FC = () => {
-  return (
-    <div id="app">
-    <Suspense fallback={null}>
-      <Nav />
 
+const App: FC = () => (
+  <div id="app">
+    <Suspense fallback={<Loading />}>
       <main>
         <Home />
-
-    
-     
+   
+       
       </main>
 
-    
     </Suspense>
-    </div>
-  );
-}
+  </div>
+);
 
 export default App;
