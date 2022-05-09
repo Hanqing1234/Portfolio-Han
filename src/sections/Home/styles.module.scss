@@ -1,7 +1,7 @@
 @keyframes pulse {
   0% {
     transform: scale(1);
-    border-color: #c31616;
+    border-color: cadetblue;
   }
 
   100% {
@@ -27,20 +27,16 @@
 
     .intro {
       padding-left: 28px;
-      padding-top: 8vh;
-
-      .tencent {
-        color: #0052d9;
-      }
+      padding-top: 15vh;
 
       .react {
         color: #61dafb;
       }
 
       .sometime {
-        // typed.js 的光标样式
+        // typed.js
         & + span {
-          color: #bd0000 !important;
+          color: #a05b5b !important;
         }
       }
 
@@ -50,7 +46,7 @@
         &::before,
         &::after {
           content: "";
-          background: #bd0000;
+          background: cadetblue;
           width: 120%;
           height: 6px;
           position: absolute;
@@ -70,7 +66,7 @@
       p {
         letter-spacing: 2px;
         text-align: left;
-        font-size: 62px;
+        font-size: 2.5rem;
         font-weight: 600;
         color: #002245;
         line-height: 1.5;
@@ -85,9 +81,9 @@
 
       .ball {
         position: relative;
-        width: 340px;
-        height: 340px;
-        background: #c31616;
+        width: 450px;
+        height: 450px;
+        background: cadetblue;
         border-radius: 50%;
         opacity: 0;
         transition: all 0.3s;

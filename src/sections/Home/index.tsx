@@ -6,7 +6,7 @@ import useTyped from "../../hooks/useTyped";
 import useLottie from "../../hooks/useLottie";
 import { arrowDownLottie, sheepLottie } from "./constants";
 
-const strings = ["playing football.", " playing games.", " sing songs."];
+const strings = ["play football.", " play video games🎮.", "do outdoor activities🏕️."];
 
 const Home: FC = () => {
   const el = useTyped(strings, { loop: true });
@@ -14,9 +14,9 @@ const Home: FC = () => {
   const sheepLottieRef = useLottie(sheepLottie);
 
   const next = () => {
-    const $about = document.querySelector("#about");
-    if ($about) {
-      $about.scrollIntoView({ behavior: "smooth" });
+    const $project = document.querySelector("#project");
+    if ($project) {
+      $project.scrollIntoView({ behavior: "smooth" });
     }
   };
 
@@ -29,9 +29,11 @@ const Home: FC = () => {
             
             <span className={styles.react}>a front-end </span> developer.
           </p>
-          <p>I like designing websites,</p>
+          <br/>
+          <br/>
+          <p>I like to design websites,</p>
           <p>
-            Sometimes&nbsp;
+            sometimes&nbsp;
             <span className={styles.sometime} ref={el} />
           </p>
         </Col>
