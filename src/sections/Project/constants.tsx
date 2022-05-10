@@ -88,6 +88,7 @@ export const projects: ProjectItem[] = [
     { content: "Express", image: express },
     { content: "CSS", image: css },
     { content: "JavaScript", image: js },
+    { content: "TypeScript", image: ts },
     { content: "MongoDB", image: mongo },],
   },
   {
@@ -98,6 +99,8 @@ export const projects: ProjectItem[] = [
       <div>
         <p>
         A simple website that users share places pictures.
+        <br/>
+        <br/>
          Registered users can create, update, read and delete their places.
          <br/>
          <br/>
@@ -114,31 +117,6 @@ export const projects: ProjectItem[] = [
     { content: "Express", image: express },
     { content: "JavaScript", image: js },
     { content: "MongoDB", image: mongo },],
-  },
-  {
-    logo: react2,
-    title: "Music Player app",
-    content: <Image src={player} />,
-    description: (
-      <div>
-        <p>
-        A music player with visual beats changed.
-         <br/>
-         <br/>
-          Used <HighLight isDark>React</HighLight> and canvas drawing.
-        </p>
-      </div>
-    ),
-    links: [
-      { content: "https://lhq-music-player.web.app/", image: link },
-      { content: "https://github.com/Hanqing1234/react-music-player", image: github }
-    ],
-    techUsed: [
-    { content: "React", image: react  },
-    { content: "CSS", image: css},
-    { content: "SCSS", image: scss},
-    { content: "JavaScript", image: js },
-   ],
   },
   {
     logo: react2,
@@ -187,9 +165,31 @@ export const projects: ProjectItem[] = [
     { content: "TypeScript", image: ts },
    ],
   },
-  
-
- 
+  {
+    logo: react2,
+    title: "Music Player app",
+    content: <Image src={player} />,
+    description: (
+      <div>
+        <p>
+        A music player with visual beats changed.
+         <br/>
+         <br/>
+          Used <HighLight isDark>React</HighLight> and canvas drawing.
+        </p>
+      </div>
+    ),
+    links: [
+      { content: "https://lhq-music-player.web.app/", image: link },
+      { content: "https://github.com/Hanqing1234/react-music-player", image: github }
+    ],
+    techUsed: [
+    { content: "React", image: react  },
+    { content: "CSS", image: css},
+    { content: "SCSS", image: scss},
+    { content: "JavaScript", image: js },
+   ],
+  },
 ];
 
 export const mdPx = 768;
