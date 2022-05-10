@@ -60,7 +60,7 @@ const Item: FC<ProjectItem> = (props) => {
 
           {techUsed && (
             <div className={styles.techUsed}>
-              <h4>Tech stack</h4>
+              <h4>Tech Stack</h4>
               <ul>
                 {techUsed.map((tech, index) => (
                   <li

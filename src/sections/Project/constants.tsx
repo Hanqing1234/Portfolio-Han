@@ -5,13 +5,17 @@ import HighLight from "../../components/HighLight";
 
 // screenshot
 import tqSite from "../../assets/screenshots/tq-system.jpg";
-import surveySite from "../../assets/screenshots/survey-site.jpg";
-import placeWeb from "../../assets/screenshots/place.jpg"
+import surveySite from "../../assets/screenshots/survey.gif";
+import placeWeb from "../../assets/screenshots/place.jpg";
+import player from "../../assets/screenshots/player2.gif";
+import food from "../../assets/screenshots/food.gif";
+import portfolio from "../../assets/screenshots/portfolio.png";
 
 import express from "../../assets/icons/express.jpg";
 
 // tech stack
 import react from "../../assets/icons/react.png";
+import react2 from "../../assets/icons/react2.jpg";
 import scss from "../../assets/icons/sass.png";
 import css from "../../assets/icons/css.png";
 import js from "../../assets/icons/js.png";
@@ -59,7 +63,7 @@ export const projects: ProjectItem[] = [
   ],
   },
   {
-    logo: express,
+    logo: node,
     title: "Survey Management",
     content: <Image src={surveySite} />,
     description: (
@@ -110,6 +114,78 @@ export const projects: ProjectItem[] = [
     { content: "Express", image: express },
     { content: "JavaScript", image: js },
     { content: "MongoDB", image: mongo },],
+  },
+  {
+    logo: react2,
+    title: "Music Player app",
+    content: <Image src={player} />,
+    description: (
+      <div>
+        <p>
+        A music player with visual beats changed.
+         <br/>
+         <br/>
+          Used <HighLight isDark>React</HighLight> and canvas drawing.
+        </p>
+      </div>
+    ),
+    links: [
+      { content: "https://lhq-music-player.web.app/", image: link },
+      { content: "https://github.com/Hanqing1234/react-music-player", image: github }
+    ],
+    techUsed: [
+    { content: "React", image: react  },
+    { content: "CSS", image: css},
+    { content: "SCSS", image: scss},
+    { content: "JavaScript", image: js },
+   ],
+  },
+  {
+    logo: react2,
+    title: "Food Order app",
+    content: <Image src={food} />,
+    description: (
+      <div>
+        <p>
+        A simple food order single-page application.
+         <br/>
+         <br/>
+          Used <HighLight isDark>React</HighLight>.
+        </p>
+      </div>
+    ),
+    links: [
+      { content: "https://lhq-meals.web.app/", image: link },
+      { content: "https://github.com/Hanqing1234/react-food-order-app", image: github }
+    ],
+    techUsed: [
+    { content: "React", image: react  },
+    { content: "CSS", image: css},
+    { content: "JavaScript", image: js },
+   ],
+  },
+  {
+    logo: react2,
+    title: "My Portfolio",
+    content: <Image src={portfolio} />,
+    description: (
+      <div>
+        <p>
+        This is my portfolio website.
+          Used <HighLight isDark>React, Typescript, Sass</HighLight>.
+        </p>
+      </div>
+    ),
+    links: [
+      { content: "https://lhq-portfolio.web.app/", image: link },
+      { content: "https://github.com/Hanqing1234/Portfolio-Han", image: github }
+    ],
+    techUsed: [
+    { content: "React", image: react  },
+    { content: "CSS", image: css},
+    { content: "SCSS", image: scss},
+    { content: "TypeScript", image: ts },
+   ],
   },
   
 
