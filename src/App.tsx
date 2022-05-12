@@ -5,6 +5,7 @@ import Nav from "./sections/Nav";
 
 const Home = React.lazy(() => import("./sections/Home"));
 const Project = React.lazy(() => import("./sections/Project"));
+const Contact = React.lazy(() => import("./sections/Contact"));
 
 
 const App: FC = () => (
@@ -14,6 +15,7 @@ const App: FC = () => (
       <main>
         <Home />
         <Project />
+        <Contact />
       </main>
     </Suspense>
   </div>

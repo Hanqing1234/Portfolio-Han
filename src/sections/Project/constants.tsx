@@ -41,9 +41,9 @@ export const projects: ProjectItem[] = [
     description: (
       <div>
         <p>
-          A website that customers can submit technical ticket of their product. 
+          A website that customers can submit technical ticket of their products. 
           <br/><br/>
-          Registered users can login and process tickets to different user role. 
+          Registered users can login and process tickets to different user roles. 
           <br/><br/>
           Used <HighLight isDark>MERN</HighLight> stack.
         </p>
@@ -71,7 +71,7 @@ export const projects: ProjectItem[] = [
         <p>
         A website that registered users can manage surveys.
           <br/><br/>
-          Anyone can take the survey and the result will be showed to the user who create this survey.
+          Anyone can take the survey and the result will be shown to the user who created this survey.
           <br/><br/>
           Used <HighLight isDark>EJS template</HighLight> as frontend, <HighLight isDark>Express.js, Node.js, MongoDB</HighLight> as backend.
         </p>
