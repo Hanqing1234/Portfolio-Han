@@ -77,6 +77,16 @@ const Nav: FC = () => {
               {nav.text}
             </li>
           ))}
+          <li
+        >
+          <a
+            href={resume}
+            target="_blank"
+            rel="noreferrer"
+          >
+            Resume
+          </a>
+        </li>
         </ul>
       )}
     </nav>
