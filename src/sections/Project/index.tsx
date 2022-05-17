@@ -10,10 +10,7 @@ import Item from "./Item";
 import Button from "../../components/Button";
 import { projects } from "./constants";
 
-const { TabPane } = Tabs;
-
 const Project = () => {
-  const [moreVisible, setMoreVisible] = useState<boolean>(false);
 
   return (
     <Section id="project" className={styles.project}>

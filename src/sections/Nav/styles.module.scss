@@ -22,6 +22,7 @@
       }
     }
   
+
     ul.horizontal {
       display: flex;
       align-items: center;
@@ -37,7 +38,7 @@
       right: 0;
       z-index: 3;
     }
-  
+    
     li,
     a {
       color: #4a4a4a;
@@ -66,7 +67,7 @@
       }
     }
   
-    @media screen and (max-width: 992px) {
+    @media only screen and (max-width: 992px) {
       ul.horizontal {
         li {
           display: none;
